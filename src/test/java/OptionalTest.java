@@ -1,7 +1,6 @@
 import com.google.common.base.Optional;
 import org.junit.Test;
 
-import javax.swing.text.html.Option;
 
 public class OptionalTest {
 
@@ -13,7 +12,7 @@ public void  testOptional() throws  Exception{
         System.out.println("possible value:"+possible.get());
     }
 }
-
+@Test
 public  void  fun1(){
     Optional<Object> absent = Optional.absent();
     Optional<Object> nullable = Optional.fromNullable(null);
