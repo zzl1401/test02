@@ -77,8 +77,18 @@ public class CacheTest {
         // boolean matches = Pattern.matches(lastNumber + "$", tel);
         System.out.println(matcher.matches());
        // Assert.assertTrue(matches);
+    }
+    @Test
+    public void fun4(){
+        int a = 241 ;
+        int b = 16 ;
+        System.out.println("a = " + Integer.toBinaryString(a));
+        System.out.println("b = " + Integer.toBinaryString(b));
+
+        System.out.println("a & b =" + Integer.toBinaryString(a & b));
 
     }
+
 
 
 
